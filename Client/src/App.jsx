@@ -9,7 +9,7 @@ import Builder from './pages/Builder'
 import Billing from './pages/Billing'
 import { Toaster } from "react-hot-toast"
 export const ServerUrl = "https://aivoice-assistant.onrender.com"
-export const CLIENT_URL = "http://localhost:5173"
+export const CLIENT_URL = "https://aivoice-assistant-1.onrender.com"
 function App() {
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(true)
